@@ -1,9 +1,9 @@
 Package: nbmisc
 Title: Nicholas Bell's Miscellaneous Teaching Tools
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Nicholas J.", "Bell", , "nicky.bell@gmail.com", role = "cre")
-Description: Miscellaneous tools for teaching data science
+Description: Miscellaneous tools for teaching data science.
 License: CC BY-NC-SA 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
