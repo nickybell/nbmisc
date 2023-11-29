@@ -1,7 +1,8 @@
 #' Plotting function for types of graphs matrix
 #'
 #' @return A ggplot2 object.
-ggfun <- function() {
+#' @noRd
+ggfun_graphs <- function() {
   p <-
     ggplot2::ggplot() +
     ggplot2::geom_hline(yintercept = 0) +
@@ -36,7 +37,7 @@ types_of_graphs <- function(code = c("n", "y")) {
   code <- rlang::arg_match(code)
   switch(
     code,
-    n = ggfun(),
-    y = ggfun
+    n = ggfun_graphs(),
+    y = ggfun_graphs
   )
 }
