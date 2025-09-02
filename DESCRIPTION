@@ -1,6 +1,6 @@
 Package: nbmisc
 Title: Nicholas Bell's Miscellaneous Teaching Tools
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("Nicholas J.", "Bell", , "nicky.bell@gmail.com", role = "cre")
 Description: Miscellaneous tools for teaching data science.
