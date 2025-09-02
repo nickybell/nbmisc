@@ -3,7 +3,5 @@ test_that("code prints when code argument is yes", {
 })
 
 test_that("ggplot object returned when code argument is no", {
-  expect_true(ggplot2::is.ggplot(types_of_graphs()))
+  expect_true(ggplot2::is_ggplot(types_of_graphs()))
 })
-
-
